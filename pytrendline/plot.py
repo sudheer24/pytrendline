@@ -255,7 +255,7 @@ def plot_graph_bokeh(results):
   p = figure(
     x_axis_type="datetime",
     tools="pan,wheel_zoom,tap,crosshair,hover,poly_draw,reset,save",
-    plot_width=1300,
+    min_width=1300,
     title=site_title,
     y_range=(y_range_top, y_range_bottom),
     x_range=(x_range_left, x_range_right),
