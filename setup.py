@@ -11,7 +11,7 @@ setup(
     description="Detection for support and resistance trendlines on python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ednunezg/pytrendline",
+    url="https://github.com/sudheer424/pytrendline",
     license='MIT',
     classifiers=[
         "Programming Language :: Python :: 3",
