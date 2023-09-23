@@ -131,7 +131,7 @@ class TrendlineFigure():
       label_y_pos = tl_y_at_last_date + (2 * m)
 
       label = Label(x=label_x_pos, y=label_y_pos,
-                 text=label_text, render_mode='css',
+                 text=label_text,
                  border_line_color=color, border_line_alpha=0.8,
                  background_fill_color='white', background_fill_alpha=1.0)
       p.segment(
